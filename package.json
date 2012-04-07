@@ -1,0 +1,25 @@
+{   "name": "meta"
+  , "version": "0.0.1"
+  , "description": "meta"
+  , "keywords": ["assets", "javascript", "css", "habisp"]
+  , "author": "habisp <code@habisp.org>"
+  , "repository": {
+      "type": "git",
+      "url": "git://github.com/escribano/meta.git"
+  }
+  , "main": "index"
+  , "dependencies": { 
+      "coffee-script"     : ">= 1.2.0"
+    , "async"             : ">= 0.1.18"
+    , "cson"              : ">= 0.2.0"
+    , "commander"         : ">= 0.5.2"
+    , "colors"            : ">= 0.6.0-1"
+  }
+  , "devDependencies": {
+      "should"        : ">= 0.6.0"
+    , "request"       : ">= 2.9.153"
+    , "mocha"         : ">= 1.0.1"
+    , "debug"         : ">= 0.6.0"
+  }
+  , "engines": { "node": ">= 0.4.1 < 0.7.0" }
+}
