@@ -1,25 +1,28 @@
 {   "name": "meta"
-  , "version": "0.0.1"
+  , "version": "0.0.5"
   , "description": "meta"
-  , "keywords": ["assets", "javascript", "css", "habisp"]
+  , "keywords": ["assets", "javascript", "css", "habisp", "dsl"]
   , "author": "habisp <code@habisp.org>"
   , "repository": {
       "type": "git",
-      "url": "git://github.com/escribano/meta.git"
+      "url": "git://github.com/Habisp/meta.git"
   }
   , "main": "index"
   , "dependencies": { 
       "coffee-script"     : ">= 1.2.0"
-    , "async"             : ">= 0.1.18"
-    , "cson"              : ">= 0.2.0"
     , "commander"         : ">= 0.5.2"
     , "colors"            : ">= 0.6.0-1"
+    , "lingo"             : ">= 0.0.4"
   }
   , "devDependencies": {
-      "should"        : ">= 0.6.0"
-    , "request"       : ">= 2.9.153"
-    , "mocha"         : ">= 1.0.1"
-    , "debug"         : ">= 0.6.0"
+      "should"            : ">= 0.6.0"
+    , "request"           : ">= 2.9.153"
+    , "mocha"             : ">= 1.0.1"
+    , "debug"             : ">= 0.6.0"
+    , "async"             : ">= 0.1.18"
+    , "express-resource"  : ">= 0.2.4"
+    , "express-namespace" : ">= 0.0.4"
+    , "cson"              : ">= 0.2.0"
   }
   , "engines": { "node": ">= 0.4.1 < 0.7.0" }
 }

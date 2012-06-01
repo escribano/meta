@@ -1,0 +1,16 @@
+.git*
+docs/
+support/
+support
+test/
+testing.js
+.DS_Store
+Thumbs.db
+examples
+examples/
+*.log
+.gitignore
+.git
+node_modules
+*.tmp
+*.sock

@@ -1,2 +1,1 @@
-module.exports.metacode = require('./lib/metacode')
-#module.exports.server = require('./lib/server')
+module.exports.DSL = require('./lib/metadsl')

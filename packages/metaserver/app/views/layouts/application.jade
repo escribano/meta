@@ -1,0 +1,33 @@
+!!! 5
+html(lang="en")
+  head
+    title Example
+    script
+      if (foo) {
+        bar();
+      }
+
+    link(rel="stylesheet", type="text/css", href="/styles/style.css")
+      
+  body
+    h1 Jade - node template engine
+    
+    #container
+      :markdown
+        Jade is a _high performance_ template engine for [node](http://nodejs.org),
+        inspired by [haml](http://haml-lang.com/), and written by [TJ Holowaychuk](http://github.com/visionmedia).
+  
+    h1 -> 'Express'
+    
+    ul
+      li.first: a(href='/') Home
+      li: a(href='/tweets') Tweets
+      li.last: a(href='/admin/users') Users
+      
+    != body
+    
+    //div -> @flashes()
+    //div -> @body
+
+    //script(src='/jquery.js')
+    //script src: "/browserify.js", type: "text/javascript"

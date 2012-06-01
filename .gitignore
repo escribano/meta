@@ -1,25 +1,14 @@
-!.gitignore
 .DS_Store
 Thumbs.db
-config.cson
-public/habisp/assets
+
 node_modules
-app/public/vendor/*
-app/public/data/
-app/public/data
-!app/public/vendor/KEEPME
-var/*
-!var/KEEPME
+
 tmp
 *.log
-
-.bin
-npm-debug.log
 *.tmp
 *.sock
 *.min*
 
 ame
 
-lib/metacode
-lib/server
+*.tgz
